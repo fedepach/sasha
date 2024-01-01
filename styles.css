@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'Allura';
+  src: url('Allura-Regular.ttf') format('truetype');
+  /* Asegúrate de que la ruta especificada coincida con la ubicación real del archivo de fuente */
+}
+
+body {
+  font-family: "Allura", "Futura PT Light","Trebuchet MS";
+  background-color: #fdf5e7;
+}
+
+.container {
+  text-align: left;
+  padding: 50px;
+}
+
+.date-section {
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+.date {
+  font-size: 19px;
+  color: #555;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  font-family: 'Futura PT Light', sans-serif; /* Añade la fuente Futura PT Light al botón */
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+@keyframes fireworks {
+  /* Define la animación de fuegos artificiales aquí */
+}
+
+button#btn-si {
+  animation: fireworks 5s forwards;
+}
+
+.text {
+  text-align: left;
+  font-size: 26px;
+}

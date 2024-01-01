@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <script>
+    function moveButton() {
+      const btnNo = document.getElementById('btn-no');
+      btnNo.style.position = 'absolute';
+      btnNo.style.left = Math.random() * window.innerWidth + 'px';
+      btnNo.style.top = Math.random() * window.innerHeight + 'px';
+    }
+  </script>
+  <title>Sashita de mi corazón</title>
+</head>
+<body>
+  <div class="container">
+    <div class="date-section"><span class="date">01 de enero del 2024</span></div>
+    <div class="text">Ay, Sashita de mi vida... ¡Quien lo hubiera pensado!. Terminé mi 2023 de una manera totalmente inexplicable e inesperado.</div>
+    <div class="text">Terminar el año conociéndote fue lo mejor que me paso en mi vida.</div>
+    <div class="text"> 
+    <div class="text"> Y ahora, en este 2024, quiero empezar este año con vos, quiero empezar y renovarme año a año junto a tu lado, ¿quieres ser mi novia?</div>
+    <div class="container">
+        <button id="btn-no" onclick="moveButton()">No :(</button>
+        <button id="btn-si" class="btn">Chii</button>
+      </div>
+  </div>
+</body>
+</html>
