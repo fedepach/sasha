@@ -101,3 +101,30 @@ button#btn-si {
   width: 250px;
   height: 250px;
 }
+
+.nav-button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 20px;
+  background-color: #555;
+  color: white;
+  text-decoration: none;
+  border-radius: 22px;
+  font-family: 'Futura PT Light', sans-serif;
+  font-size: 12px;
+}
+
+.nav-button:hover {
+  background-color: #6c6c6c;
+}
+
+
+.img31dic2024 {
+  width: 250px;
+  aspect-ratio: 1;
+  object-fit: cover;
+  --_m: radial-gradient(#000 69%,#0000 70%) 84.5%/50%;
+  -webkit-mask-box-image: var(--_m);
+             mask-border: var(--_m);
+  clip-path: polygon(-41% 0,50% 91%, 141% 0);
+}
