@@ -128,3 +128,16 @@ button#btn-si {
              mask-border: var(--_m);
   clip-path: polygon(-41% 0,50% 91%, 141% 0);
 }
+
+
+
+.img31dic2025 {
+  width: 500px;
+  aspect-ratio: 1;
+  object-fit: cover;
+  object-position: right center;
+  --_m: radial-gradient(#000 69%,#0000 70%) 84.5%/50%;
+  -webkit-mask-box-image: var(--_m);
+             mask-border: var(--_m);
+  clip-path: polygon(-41% 0,50% 91%, 141% 0);
+}
